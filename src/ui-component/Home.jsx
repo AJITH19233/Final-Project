@@ -49,7 +49,7 @@ const Home = () => {
             </>
           ) : (
             <>
-            <li> <Link to="//Studentdash">Internship</Link> </li>
+            <li> <Link to="/Studentdash">Internship</Link> </li>
             <li> <Link to="/enrolled-projects">Enrolled Courses</Link> </li>
             <li> <Link to="/login" onClick={signOut}>Signout</Link> </li>
             </>
